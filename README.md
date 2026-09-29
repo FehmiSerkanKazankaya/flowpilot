@@ -6,13 +6,12 @@ FlowPilot, küçük işletmelerin tekrarlayan operasyonel işlerini otomatikleş
 
 - Mobil ve masaüstü uyumlu landing page
 - İsim, e-posta, hizmet seçimi ve açıklama alanlarından oluşan talep formu
-- İstemci tarafında form doğrulama
-- Sunucu tarafında form doğrulama
+- İstemci ve sunucu tarafında doğrulama
 - Gönderiliyor, başarı ve hata durumları
 - Supabase PostgreSQL üzerinde kalıcı kayıt
-- Başarı mesajının yalnızca veritabanı kaydı başarılı olduğunda gösterilmesi
+- Başarı mesajının yalnızca kayıt başarılı olduğunda gösterilmesi
 
-## Kullanılan Teknolojiler
+## Teknolojiler
 
 - Next.js
 - TypeScript
@@ -20,13 +19,8 @@ FlowPilot, küçük işletmelerin tekrarlayan operasyonel işlerini otomatikleş
 - Supabase
 - PostgreSQL
 
-## Projeyi Lokal Olarak Çalıştırma
-
-Bağımlılıkları yükleyin:
+## Lokal Çalıştırma
 
 ```bash
 npm install
-
-Deployment ready.
-
-flowpilot-l2r071ozk-flowpilot6.vercel.app
+npm run dev
