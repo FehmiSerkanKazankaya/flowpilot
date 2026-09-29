@@ -26,3 +26,7 @@ Bağımlılıkları yükleyin:
 
 ```bash
 npm install
+
+Deployment ready.
+
+
